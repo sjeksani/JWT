@@ -27,11 +27,10 @@ function getToken() {
   console.log('going to send', sendObject);
 
   xhr.send(sendObject);
-
 }
 
-function getSecret() {
 
+function getSecret() {
   var url = "http://localhost:8000/secret"
   var xhr = new XMLHttpRequest();
   var tokenElement = document.getElementById('token');
